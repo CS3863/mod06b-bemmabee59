@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
-public float speed = 40.0f;
+public class MoveForward : MonoBehaviour
 {
-    // Start is called before the first frame update
+   public float speed = 40.0f;
+ // Start is called before the first frame update
     void Start()
     {
         
